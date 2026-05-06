@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root {
+  --mono: 'Share Tech Mono', monospace;
+  --dark: #1a2232;
+  --orange: #EA580C;
+}
+
+/* ========================= */
+/* HERO SECTION              */
+/* ========================= */
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #f2e5d9 45%,
+    #e6c8a8 75%,
+    #d9b79b 100%
+  );
+}
+
+/* ========================= */
+/* HERO CONTENT              */
+/* ========================= */
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 85px;
+  max-width: 1200px;
+  width: 100%;
+  padding: 40px 40px;
+  flex: 1;           /* grows to fill space between nav and marquee */
+  margin: 0 auto;    /* keeps content centred horizontally */
+}
+
+/* ========================= */
+/* LEFT SIDE                 */
+/* ========================= */
+
+.hero-left {
+  flex: 1;
+}
+
+.tag {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 8px;
+}
+
+.hero-left h1 {
+  font-size: 88px;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.1;
+}
+
+.hero-left h1 span {
+  color: #EA580C;
+}
+
+.subtitle-label {
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #334155;
+}
+
+.subtitle-switcher {
+  height: 40px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #EA580C;
+  white-space: nowrap;
+}
+
+.description {
+  margin-top: 12px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #64748b;
+  max-width: 540px;
+}
+
+/* ========================= */
+/* RIGHT SIDE                */
+/* ========================= */
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  width: 420px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+  transition: transform 0.35s ease;
+}
+
+.hero-image:hover {
+  transform: scale(1.08) rotate(4deg);
+}
+
+/* ========================= */
+/* MARQUEE SECTION           */
+/* ========================= */
+
+.marquee-section {
+  width: 100%;
+  height: 80px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.marquee-container {
+  max-width: 1600px;
+  margin: auto;
+  padding: 0 60px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-track {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  white-space: nowrap;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #000;
+  animation: marqueeScroll 18s linear infinite;
+}
+
+.outline-text {
+  color: transparent;
+  -webkit-text-stroke: 1px #000;
+  font-weight: 900;
+  letter-spacing: 10px;
+  line-height: 1;
+}
+
+@keyframes marqueeScroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ========================= */
+/* RESPONSIVE                */
+/* ========================= */
+
+@media (max-width: 900px) {
+  .hero-content {
+    flex-direction: column-reverse;
+    padding: 40px 24px;
+    gap: 40px;
+  }
+
+  .hero-left h1 {
+    font-size: 56px;
+  }
+
+  .hero-image {
+    width: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-left h1 {
+    font-size: 42px;
+  }
+}

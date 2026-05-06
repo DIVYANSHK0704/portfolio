@@ -1,0 +1,115 @@
+/* SECTION */
+
+.toolbox{
+padding:100px 60px;
+background:#f9fafb;
+}
+
+
+/* HEADER */
+
+.toolbox-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:50px;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.toolbox-header h2{
+font-size:36px;
+font-weight:700;
+color:#0f172a;
+}
+
+.toolbox-header p{
+margin-top:8px;
+color:#64748b;
+}
+
+
+/* TABS */
+
+.toolbox-tabs{
+display:flex;
+gap:12px;
+}
+
+.toolbox-tabs span{
+padding:10px 20px;
+border-radius:8px;
+background:#e2e8f0;
+font-size:14px;
+cursor:pointer;
+transition:all 0.25s ease;
+}
+
+.toolbox-tabs span:hover{
+background:#d4dbe5;
+}
+
+.toolbox-tabs span.active{
+background:#f97316;
+color:white;
+}
+
+
+/* GRID */
+
+.toolbox-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+gap:24px;
+}
+
+
+/* TOOL CARD */
+
+.tool-card{
+background:white;
+padding:28px 20px;
+border-radius:14px;
+text-align:center;
+cursor:pointer;
+
+box-shadow:0 6px 18px rgba(0,0,0,0.05);
+
+transition:
+transform 0.25s ease,
+box-shadow 0.25s ease,
+background 0.25s ease;
+}
+
+
+/* HOVER */
+
+.tool-card:hover{
+transform:translateY(-6px);
+box-shadow:0 14px 35px rgba(0,0,0,0.1);
+}
+
+
+/* ICON */
+
+.tool-icon{
+font-size:40px;
+margin-bottom:12px;
+color:#0f172a;
+
+transition:transform 0.25s ease,color 0.25s ease;
+}
+
+.tool-card:hover .tool-icon{
+color:#f97316;
+transform:scale(1.1);
+}
+
+
+/* TOOL NAME */
+
+.tool-card h4{
+font-size:15px;
+font-weight:600;
+color:#0f172a;
+}
