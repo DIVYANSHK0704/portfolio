@@ -92,11 +92,6 @@ export default function Footer() {
           © 2024 Divyansh Developer Portfolio. All rights reserved.
         </p>
 
-        <div className="footer-legal">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-        </div>
-
       </div>
 
       {/* MODAL */}
@@ -144,7 +139,7 @@ export default function Footer() {
 
               {/* LINKEDIN */}
               <a
-                href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME"
+                href="https://www.linkedin.com/in/divyansh-kumar-248a62332/"
                 target="_blank"
                 rel="noreferrer"
                 className="contact-option"
