@@ -119,7 +119,7 @@ export default function Footer() {
 
               {/* EMAIL */}
               <a
-                href="mailto:divyanshk324@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=divyanshk324@gmail.com"
                 className="contact-option"
               >
                 <div className="contact-left">
