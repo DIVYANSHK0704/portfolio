@@ -43,7 +43,7 @@ const PROJECTS = [
 
     tags: ["React", "Vite", "Framer Motion", "CSS", "React Router"],
 
-    link: "https://github.com/DIVYANSHK0704",
+    link: "https://portfolio-neon-nine-80.vercel.app/",
 
     color: "#2563eb",
 
