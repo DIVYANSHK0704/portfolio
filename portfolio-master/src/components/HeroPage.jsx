@@ -7,7 +7,6 @@ import Navbar from "./Navbar";
 
 const TITLES = [
   "CREATIVE WEB DEVELOPER",
-  "AI & ML ENTHUSIAST",
 ];
 
 export default function HeroPage() {
