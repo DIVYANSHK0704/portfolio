@@ -172,7 +172,6 @@ export default function About() {
           <h2 className="cta-title">
             LET'S BUILD <span className="orange">SOMETHING</span> EPIC.
           </h2>
-          <button className="cta-btn">GET IN TOUCH</button>
         </div>
       </section>
 
