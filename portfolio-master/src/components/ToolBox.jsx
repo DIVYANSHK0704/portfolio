@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FaReact, FaNodeJs, FaFigma } from "react-icons/fa";
 import { SiTailwindcss, SiMongodb, SiNextdotjs, SiGoogle } from "react-icons/si";
 
-import "./Toolbox.css";
+import "./ToolBox.css";
 
 const tools = [
   { id: 1, name: "React.js", icon: <FaReact />, category: "frontend" },
