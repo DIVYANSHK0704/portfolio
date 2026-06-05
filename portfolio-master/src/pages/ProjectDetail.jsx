@@ -92,6 +92,50 @@ const PROJECTS = [
       "Password strength meter, profile editing, and login activity tracking",
     ],
   },
+
+   {
+    id: 4,
+    title: "QuickEMS",
+    category: "Full Stack",
+    year: "2025",
+
+    description:
+      "A production-grade MERN Employee Management System featuring secure JWT authentication, role-based access control, attendance tracking, leave management, automated workflows, and payroll generation.",
+
+    longDescription: `QuickEMS is a scalable Employee Management System built with MongoDB, Express.js, React, and Node.js to streamline workforce operations. The platform provides dedicated ADMIN and EMPLOYEE portals secured with JWT-based authentication, bcrypt password hashing, and role-based authorization. Employees can manage attendance, submit leave requests, and access payslips, while administrators can oversee employee records, approve leave requests, track attendance, and generate payroll reports.The system leverages Inngest for event-driven background processing, enabling automated attendance monitoring, auto-checkout reminders after work-hour thresholds, leave notification workflows, and daily absentee detection with scheduled email alerts. The frontend is built with React 19, React Context API, and Tailwind CSS v4, delivering a responsive and role-aware dashboard experience. Additional features include profile image uploads using Multer, soft-delete employee management, printable payslips, and robust REST APIs for seamless client-server communication.`,
+
+    tags: [
+      "MongoDB",
+      "Express.js",
+      "React 19",
+      "Node.js",
+      "JWT",
+      "bcrypt",
+      "Inngest",
+      "Axios",
+      "Tailwind CSS",
+      "React Context API",
+      "Multer",
+      "Nodemailer",
+      "REST API",
+      "Role-Based Access Control",
+    ],
+
+    link: "https://github.com/DIVYANSHK0704/PRODIGY_FS_02",
+
+    color: "#2563eb",
+
+    highlights: [
+      "Secure JWT authentication with role-based access control for Admin and Employee portals",
+      "Automated Inngest workflows for attendance monitoring, leave notifications, and absentee reminders",
+      "Complete attendance management with clock-in/out tracking and working-hours calculation",
+      "Leave management system with approval, rejection, and status tracking workflows",
+      "Payroll module with dynamic salary calculations and printable payslip generation",
+      "Employee profile management with Multer-powered file uploads and soft-delete functionality",
+      "Responsive React dashboard with protected routes and role-aware navigation",
+      "RESTful API architecture with validation, middleware-based authorization, and secure data handling",
+    ],
+  },
 ];
 
 export default function ProjectDetail() {
