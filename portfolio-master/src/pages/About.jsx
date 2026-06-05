@@ -75,7 +75,7 @@ export default function About() {
               <div className="stat-lbl">Years coding</div>
             </div>
             <div className="stat">
-              <div className="stat-val">3</div>
+              <div className="stat-val">4</div>
               <div className="stat-lbl">Projects built</div>
             </div>
           </div>
@@ -114,7 +114,12 @@ export default function About() {
           <div className="edu-item">
             <span className="edu-year">2021 – 2022</span>
             <span className="edu-title-text">10th – Delhi Public School</span>
-            <span className="edu-sub">Panvel, Mumbai</span>
+            <span className="edu-sub">Panvel, Maharastra</span>
+          </div>
+          <div className="edu-item">
+            <span className="edu-year">2021 – 2022</span>
+            <span className="edu-title-text">12th – Doon Public School</span>
+            <span className="edu-sub">Patna, Bihar</span>
           </div>
         </div>
 
