@@ -54,6 +54,44 @@ const PROJECTS = [
       "Responsive Work page with filter tabs and detail routing",
     ],
   },
+
+  {
+    id: 3,
+    title: "SecureAuth",
+    category: "Full Stack",
+    year: "2025",
+
+    description:
+      "A production-ready MERN stack authentication platform featuring JWT-based authentication, role-based authorization, secure user management, and modern security best practices.",
+
+    longDescription:
+      "SecureAuth is a full-stack authentication and user management application built with MongoDB, Express.js, React, and Node.js. The platform implements secure JWT authentication with role-based access control, allowing separate user and admin experiences. It includes password hashing with bcrypt, route protection, profile management, login activity tracking, and an admin dashboard for user monitoring. Security is strengthened through rate limiting, Helmet security headers, input validation, CORS protection, and centralized error handling. On the frontend, React Context manages authentication state, Axios interceptors handle token injection and session expiry, and features such as password strength indicators, toast notifications, and responsive design provide a polished user experience.",
+
+    tags: [
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
+      "JWT",
+      "bcrypt",
+      "Axios",
+      "React Router",
+      "Context API",
+    ],
+
+    link: "https://github.com/DIVYANSHK0704/PRODIGY_FS_01",
+
+    color: "#16a34a",
+
+    highlights: [
+      "JWT authentication with 7-day secure session management",
+      "Role-based access control with dedicated admin dashboard",
+      "bcrypt password hashing with secure salting",
+      "Rate limiting, Helmet, validation, and CORS protection",
+      "Axios interceptors for automatic token handling and session recovery",
+      "Password strength meter, profile editing, and login activity tracking",
+    ],
+  },
 ];
 
 export default function ProjectDetail() {

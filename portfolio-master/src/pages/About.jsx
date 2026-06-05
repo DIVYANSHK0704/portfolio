@@ -75,7 +75,7 @@ export default function About() {
               <div className="stat-lbl">Years coding</div>
             </div>
             <div className="stat">
-              <div className="stat-val">1</div>
+              <div className="stat-val">3</div>
               <div className="stat-lbl">Projects built</div>
             </div>
           </div>

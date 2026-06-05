@@ -6,7 +6,6 @@ export default function Home() {
   return (
     <div>
 
-      {/* Nav is now merged inside HeroPage */}
       <section id="home">
         <HeroPage />
       </section>
